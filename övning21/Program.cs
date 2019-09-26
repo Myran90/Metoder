@@ -35,7 +35,7 @@ namespace övning21
             Console.Clear();
             int metric;
 
-            // En while-loop för att återkomma till menyn efter man har valt och utrfört sin konvertering
+            // En while-loop för att återkomma till menyn efter man har valt och utfört sin konvertering
             while(true)
             {
             Console.WriteLine("======== Millimeter konverteraren =======");
@@ -59,7 +59,7 @@ namespace övning21
                     Console.Write("Mata in önskad längd i millimeter: ");
                     metric = Convert.ToInt32(Console.ReadLine());
                     double cm = MmToCm(metric);
-                    Console.WriteLine(metric+" Milimeter blir: "+cm+" Centimeter!");
+                    Console.WriteLine(metric+" Millimeter blir: "+cm+" Centimeter!");
                     Console.WriteLine("=========================================");
                     break;
 
@@ -68,7 +68,7 @@ namespace övning21
                     Console.Write("Mata in önskad längd i millimeter: ");
                     metric = Convert.ToInt32(Console.ReadLine());
                     double dec = MmToDec(metric);
-                    Console.WriteLine(metric+" Milimeter blir: "+dec+" Decimeter!");
+                    Console.WriteLine(metric+" Millimeter blir: "+dec+" Decimeter!");
                     Console.WriteLine("=========================================");
                     break;
 
@@ -77,7 +77,7 @@ namespace övning21
                     Console.Write("Mata in önskad längd i millimeter: ");
                     metric = Convert.ToInt32(Console.ReadLine());
                     double meter = MmToMeter(metric);
-                    Console.WriteLine(metric+" Milimeter blir: "+meter+" Meter!");
+                    Console.WriteLine(metric+" Millimeter blir: "+meter+" Meter!");
                     Console.WriteLine("=========================================");
                     break;
 
@@ -86,7 +86,7 @@ namespace övning21
                     Console.Write("Mata in önskad längd i millimeter: ");
                     metric = Convert.ToInt32(Console.ReadLine());
                     double km = MmToKm(metric);
-                    Console.WriteLine(metric+" Milimeter blir: "+km+" Kilometer!");
+                    Console.WriteLine(metric+" Millimeter blir: "+km+" Kilometer!");
                     Console.WriteLine("=========================================");
                     break;
             }
@@ -95,7 +95,7 @@ namespace övning21
             catch
             {
                 Console.WriteLine("Du får bara använda dig utav 1-4 när du väljer i menyn...");
-                Console.WriteLine("Du får bara skriva in siffror i dem olika menyerna...");
+                Console.WriteLine("Du får bara skriva in siffror i dem olika menyvalen...");
                 Console.WriteLine("Prova igen...");
                 return;
             }
